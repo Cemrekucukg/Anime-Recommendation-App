@@ -1,7 +1,6 @@
 # 🎌 Anime Recommendation App
+A Python-based recommendation system that suggests anime titles using **Collaborative Filtering** and **Content-Based Filtering** methods to enhance user experience.
 
-A simple recommendation system for anime built with **Python**.  
-It uses **Collaborative Filtering** and **Content-Based Filtering** methods to suggest anime titles based on user preferences and similarity scores.
 
 ## 📘 Overview
 The project analyzes user ratings and anime metadata (genre, type, episodes)  
