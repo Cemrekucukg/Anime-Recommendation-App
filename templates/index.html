@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 20 Anime</title>
+</head>
+<body>
+    <h1>Top 20 Anime</h1>
+    <table border="1">
+        <tr>
+            <th>Anime ID</th>
+            <th>Name</th>
+            <th>Rating</th>
+        </tr>
+        {% for anime in top_20_anime %}
+        <tr>
+            <td>{{ anime.anime_id }}</td>
+            <td>{{ anime.name }}</td>
+            <td>{{ anime.rating }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
